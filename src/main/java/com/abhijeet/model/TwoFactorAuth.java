@@ -1,0 +1,11 @@
+package com.abhijeet.model;
+
+import com.abhijeet.domain.VerificationType;
+import lombok.Data;
+
+@Data
+public class TwoFactorAuth {
+    private boolean isEnabled = false;
+    private VerificationType sendTo;
+
+}
